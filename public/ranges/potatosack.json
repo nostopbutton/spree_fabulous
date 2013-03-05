@@ -10,57 +10,57 @@
         "view": "front",
 
         "bodice": {
-            "type": "bodice-01",
-            "fabric": "c03"
+            "type": "bod-001",
+            "fabric": "003"
         },
         "skirt": {
-            "type": "skirt-02",
-            "fabric": "c04"
+            "type": "skt-002",
+            "fabric": "004"
         },
         "sleeves": {
-            "type": "sleeves-01",
-            "fabric": "c01"
+            "type": "slv-001",
+            "fabric": "001"
         },
         "belt": {
-            "type": "belt-01",
-            "fabric": "c01"
+            "type": "blt-001",
+            "fabric": "001"
         }
     },
 
     "bodice": [
-        {"name": "bodice-01", "type": "bodice-01"},
-        {"name": "bodice-02", "type": "bodice-02"}
+        {"name": "bod-001", "type": "bod-001"},
+        {"name": "bod-002", "type": "bod-002"}
     ],
     "bodice_fabric": [
-        {"name": "red",     "type": "c01"},
-        {"name": "black",   "type": "c03"}
+        {"name": "red",     "type": "001"},
+        {"name": "black",   "type": "003"}
     ],
 
     "skirt": [
-        {"name": "skirt-02", "type": "skirt-02"},
-        {"name": "skirt-05", "type": "skirt-05"}
+        {"name": "skt-002", "type": "skt-002"},
+        {"name": "skt-005", "type": "skt-005"}
     ],
     "skirt_fabric": [
-        {"name": "red",     "type": "c01"},
-        {"name": "green",   "type": "c04"}
+        {"name": "red",     "type": "001"},
+        {"name": "green",   "type": "004"}
     ],
     "sleeves": [
 
-        {"name": "sleeves-02", "type": "sleeves-02"},
-        {"name": "sleeves-07", "type": "sleeves-07"}
+        {"name": "slv-002", "type": "slv-002"},
+        {"name": "slv-007", "type": "slv-007"}
     ],
     "sleeves_fabric": [
-        {"name": "red",     "type": "c01"},
-        {"name": "black",   "type": "c03"}
+        {"name": "red",     "type": "001"},
+        {"name": "black",   "type": "003"}
     ],
 
     "belt": [
-        {"name": "belt-00", "type": "belt-00"},
-        {"name": "belt-01", "type": "belt-01"}
+        {"name": "blt-000", "type": "blt-000"},
+        {"name": "blt-001", "type": "blt-001"}
     ],
     "belt_fabric": [
-        {"name": "red",     "type": "c01"},
-        {"name": "black",   "type": "c03"}
+        {"name": "red",     "type": "001"},
+        {"name": "black",   "type": "003"}
     ]
 
 }
