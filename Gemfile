@@ -18,6 +18,17 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  #gem "therubyracer"
+  #gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+  #gem "twitter-bootstrap-rails"
+  gem 'bootstrap-sass', '~> 2.1.1.0'
+  gem 'font-awesome-sass-rails'
+
+  #gem 'angularjs-rails'
+  #gem 'angular-ui-rails'
+
+  gem 'diffy'
 end
 
 gem 'jquery-rails'
@@ -39,3 +50,7 @@ gem 'jquery-rails'
 gem 'spree', '1.3.2'
 gem 'spree_gateway'
 gem 'spree_auth_devise'
+gem 'simple_form'
+#gem 'spree_myriad_options', :git => 'git://github.com/sbeam/spree_myriad_options.git'
+#gem 'spree_flexi_variants', :git=>'git@github.com:jsqu99/spree_flexi_variants.git'
+#gem "spree_product_assembly", :git => "git://github.com/spree/spree-product-assembly.git" # Official

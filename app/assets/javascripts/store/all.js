@@ -7,6 +7,10 @@
 //= require jquery
 //= require jquery_ujs
 
+// This can be customized as per https://github.com/seyhunak/twitter-bootstrap-rails/tree/master/vendor/assets/javascripts/twitter
+//= require bootstrap
+
+
 //= require store/spree_core
 //= require store/spree_promo
 
